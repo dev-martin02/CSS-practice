@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  max-width: 1440px;
+  min-width: 375px;
+  padding: 1rem;
+  border-radius: 25px;
+}
+#top p {
+  max-width: 70%;
+}
+#result {
+  font-size: large;
+  display: flex;
+  /* Maybe try soemthing with grid? */
+  flex-direction: column;
+  border: 3px black solid;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* span {
+  font-weight: 700;
+  font-size: 25px;
+} */
+#Actual-score {
+  font-size: 60px;
+}
+
+/* #bottom {
+  width: 20%;
+} */
+
+div {
+  width: 100%;
+  margin-left: 0%;
+}
+div p {
+  padding: 0.5rem 1rem;
+  width: 90%;
+  border: 2px black solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#first {
+  color: hsl(0, 100%, 67%);
+}
+
+#second {
+  color: hsl(39, 100%, 56%);
+}
+
+#third {
+  color: hsl(166, 100%, 37%);
+}
+
+#fourth {
+  color: hsl(234, 85%, 45%);
+}
